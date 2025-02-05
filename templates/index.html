@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Legal Act Summarizer</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <script src="{{ url_for('static', filename='script.js') }}" defer></script>
+</head>
+<body>
+
+    <!-- Hero Section -->
+    <header>
+        <h1>📜 Legal Act Summarizer</h1>
+        <p>Get AI-generated legal act summaries instantly.</p>
+    </header>
+
+    <!-- Search Box -->
+    <section class="search-container">
+        <input type="text" id="actInput" placeholder="Enter Act Name (e.g., Indian Penal Code, 1860)">
+        <button onclick="fetchSummary()">🔍 Search</button>
+    </section>
+
+    <!-- Summary Display -->
+    <section id="summary-container">
+        <h2>Act Summary</h2>
+        <div id="summary-output">
+            <p>Enter an Act Name to see its summary.</p>
+        </div>
+    </section>
+
+</body>
+</html>
