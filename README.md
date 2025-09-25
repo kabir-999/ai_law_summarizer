@@ -21,7 +21,6 @@ Legal texts are long, complex, and often inaccessible to the average reader. Thi
 
 | Layer       | Tech Used                              |
 |-------------|-----------------------------------------|
-| Frontend    | HTML, CSS, Bootstrap                    |
 | Backend     | Flask                                   |
 | NLP Engine  | HuggingFace Transformers / T5 / BART    |
 | Web Scraper | BeautifulSoup, Requests                 |
