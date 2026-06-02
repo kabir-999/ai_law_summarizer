@@ -36,10 +36,3 @@ Legal texts are long, complex, and often inaccessible to the average reader. Thi
 - 🧠 **Smart Highlights:** Extracts key definitions, penalties, scope, and sections
 
 ---
-
-## 🖥️ How It Works
-
-1. User inputs the title of a law (e.g., "Right to Information Act")
-2. Backend scrapes legal data from verified sources
-3. NLP engine summarizes the law content
-4. Outputs both the original and AI-summarized versions
